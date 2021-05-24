@@ -1,13 +1,13 @@
 package com.alexkozyura.tutorial.maven.testing;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class JavaHelloWorldTest {
+public class JavaHelloWorldTest {
 
     @Test
-    void getHello() {
+    public void getHello() {
 
         JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
 
